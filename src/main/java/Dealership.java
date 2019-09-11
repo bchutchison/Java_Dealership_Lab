@@ -1,5 +1,6 @@
 import behaviours.IVehicle;
 import purchasing.SalesComponents;
+import vehicle.Hybrid;
 
 import java.util.ArrayList;
 
@@ -21,5 +22,8 @@ public class Dealership {
 
     public double getCash(SalesComponents person){
        return person.getCash();
+    }
+
+    public void vehicleSale(Hybrid hybrid) {
     }
 }

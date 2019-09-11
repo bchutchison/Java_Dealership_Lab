@@ -38,6 +38,12 @@ public class DealershipTest {
         assertEquals(10000.00, 0.01, dealership.getCash(customer));
     }
 
+    @Test
+    public void dealerCanSellCar() {
+        dealer.sellVehicle(hybrid);
+        assertEquals(55000, 0.01, dealership.getCash(dealer));
+    }
+
 
 
 }

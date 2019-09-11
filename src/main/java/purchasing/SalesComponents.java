@@ -1,5 +1,6 @@
 package purchasing;
 
+import vehicle.Hybrid;
 import vehicle.VehicleType;
 
 public abstract class SalesComponents {
@@ -21,4 +22,5 @@ public abstract class SalesComponents {
     public void buyVehicle(SalesComponents person, VehicleType vehicle){
         this.cash -= vehicle.getPrice();
     }
+
 }
