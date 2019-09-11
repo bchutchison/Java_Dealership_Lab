@@ -1,6 +1,5 @@
 package components;
 
-
 public abstract class VehicleComponent {
 
     private double price;
