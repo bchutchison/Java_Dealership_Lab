@@ -1,4 +1,8 @@
 package purchasing;
 
-public class Dealer {
+public class Dealer extends SalesComponents{
+
+    public Dealer(double cash){
+        super(cash);
+    }
 }
