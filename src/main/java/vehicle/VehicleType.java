@@ -1,6 +1,8 @@
 package vehicle;
 
-public abstract class VehicleType {
+import behaviours.IVehicle;
+
+public abstract class VehicleType implements IVehicle {
 
     private String make;
     private String model;
