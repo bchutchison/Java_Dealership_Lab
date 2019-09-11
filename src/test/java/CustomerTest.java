@@ -24,7 +24,7 @@ public class CustomerTest {
 
     @Test
     public void canBuyVehicle(){
-        customer.buyVehicle(customer, hybrid);
+        customer.buyVehicle(hybrid);
         assertEquals(5000.00, 0.01, customer.getCash());
     }
 

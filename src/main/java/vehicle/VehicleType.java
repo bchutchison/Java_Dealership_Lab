@@ -7,8 +7,8 @@ import java.util.ArrayList;
 
 public abstract class VehicleType implements IVehicle {
 
-    private String make;
-    private String model;
+    String make;
+    String model;
     private String colour;
     private double price;
     private ArrayList<IComponent> components;

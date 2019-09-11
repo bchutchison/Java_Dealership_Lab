@@ -1,6 +1,5 @@
 package purchasing;
 
-import vehicle.Hybrid;
 import vehicle.VehicleType;
 
 public class Dealer extends SalesComponents{
@@ -10,7 +9,7 @@ public class Dealer extends SalesComponents{
     }
 
     public void sellVehicle(VehicleType vehicle) {
-        this. += vehicle.getPrice();
+        cash += vehicle.getPrice();
     }
 
 }
