@@ -1,4 +1,5 @@
 import behaviours.IVehicle;
+import purchasing.SalesComponents;
 
 import java.util.ArrayList;
 
@@ -16,5 +17,9 @@ public class Dealership {
 
     public void addVehicle(IVehicle vehicle) {
         this.stock.add(vehicle);
+    }
+
+    public double getCash(SalesComponents person){
+       return person.getCash();
     }
 }
